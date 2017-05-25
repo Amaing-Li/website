@@ -29,6 +29,7 @@ def print_start():
 
 
 def print_line():
+    """get all the file in the current directory and generate tags"""
     for name in os.listdir("."):
         if name not in {"index.html", "csv2html.py","auto.sh"}:
             print("                    <h2><a href={0}>{0}</a></h2>".format(name))
