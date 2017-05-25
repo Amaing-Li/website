@@ -15,13 +15,13 @@ def main():
 
 
 def print_start():
-    print("""
+    print("""\
     <!DOCTYPE html>
     <html>
-	    <head>
+        <head>
 		    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-    	</head>
-	    <body>
+        </head>
+        <body>
 		    <h1>Welcome!</h1>
 		    <p>I hope that you can benefit from what I share.</p>
     """)
