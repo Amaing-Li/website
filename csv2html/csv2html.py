@@ -30,7 +30,7 @@ def print_start():
 def print_line():
     for name in os.listdir("."):
         if name not in {"index.html", "csv2html.py"}:
-            print("<h2><a href={0}>{0}</a></h2>".format(name))
+            print("                    <h2><a href={0}>{0}</a></h2>".format(name))
 
 
 def print_end():
