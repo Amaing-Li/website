@@ -24,12 +24,13 @@ def print_start():
         <body>
 		    <h1>Welcome!</h1>
 		    <p>I hope that you can benefit from what I share.</p>
+		    <p>github:Amaing-Li</p>
     """)
 
 
 def print_line():
     for name in os.listdir("."):
-        if name not in {"index.html", "csv2html.py"}:
+        if name not in {"index.html", "csv2html.py","auto.sh"}:
             print("                    <h2><a href={0}>{0}</a></h2>".format(name))
 
 
